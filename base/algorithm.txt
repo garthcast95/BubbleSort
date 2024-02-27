@@ -1,0 +1,44 @@
+
+OVERALL OBJECTIVE
+GOALS: Sort the array in numerical order from C
+
+INPUT: NO INPUT
+OUTPUT: The Array sorted from the number from lowest to highest and print each attempt it took for it to print
+
+STEPS:
+1. Have the program load the array.
+2. Print the array
+3. Initiate a loop
+4. Use a pointer to use the first digit of the array
+5. Store the value of where it was pointing and compare to the next digit
+6. If the initial digit is higher than the first, move the digit to the next position
+7. Print the array
+8. Repeat until all objects of the array has been scanned
+9. Repeat process until numbers are sorted in ascending
+10. Stop at last array
+
+VOID PRINTVALUES
+GOAL: Print values after each array
+INPUT: Each array produced when swapped
+OUTPUT: Print value of New Array
+STEPS:
+1. Print the current value of array
+2. Sort the value of the array
+3. Print the new value of the array
+
+VOID SWAP
+GOAL: Swap the value of a Pointer
+OUTPUT: Value of Current Pointer is swapped with another
+STEPS:
+1. Assign a pointer value to a temporary location
+2. Assign the second value to the first value location
+3. Assign the current value in temporary location to the second values previoous location
+
+VOID SORT
+OUTPUT: Sort the data list from lowest to highest
+Goal: Loop through each integer in array,  Detect values that are from lowest to highest
+STEPS:
+1. Detect the current value of the pointer is greater than the number next to it
+2. If the number is less, move on the next number
+3. If the number is greater, swap the number.
+4. Swap the numbers as indicated in the pointer
